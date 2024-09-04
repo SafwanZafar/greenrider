@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "344281476863",
+    "project_id": "greenrider-5c3a6",
+    "storage_bucket": "greenrider-5c3a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344281476863:android:cbcc1fcfc2fe47761d66ca",
+        "android_client_info": {
+          "package_name": "com.example.greenrider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9bWQKajo8CLszMeXTb9YtpHYqVF0J7lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
