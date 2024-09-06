@@ -271,7 +271,7 @@ class _AccountTypeState extends State<AccountType> {
                                 Padding(
                                   padding: const EdgeInsets.only(left: 10),
                                   child: Text(
-                                    'Comfortable and spacious upto 6 \n Pessengers',
+                                    'Comfortable and spacious upto 6 \n Passengers',
                                     style: TextStyle(
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14,
