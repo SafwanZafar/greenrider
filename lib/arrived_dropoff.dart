@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled1/custom_alert_box.dart';
 import 'package:untitled1/rider_info.dart';
 import 'custom_button.dart';
 import 'map_screen.dart';
@@ -41,46 +42,63 @@ class _ArrivedDropoffState extends State<ArrivedDropoff> {
                       width: 328,
                       onPress: () {
                         showDialog(
-                            context: context,
-                            builder: (context) {
-                              return   Container(
-                                child: AlertDialog(
-                                  title:const Text(
-                                    'Confirm end of ride',
-                                    style: TextStyle(
-                                        fontSize: 20,
-                                        fontWeight: FontWeight.w500,
-                                    color: Color.fromRGBO(0, 0, 0, 0.87)
-                                    ),
-                                  ),
-                                  content:const  Text(
-                                      'Are you sure you want to end this \n ride?',
-                                    style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w400,
-                                      color: Color.fromRGBO(156, 164, 171, 1)
-                                  ),
-                                  ),
-                                  actions: [
-                                    CustomButton(height: 36, width: 74, onPress: (){
-                                      Navigator.pop(context);
-                                    }, text: 'No',
-                                      textcolor: Color.fromRGBO(156, 164, 171, 1),
-                                      color: Color.fromRGBO(255, 255, 255, 1),
-                                    ),
-                                    CustomButton(height: 36, width: 74, onPress: (){
-                                      Navigator.pop(context);
-
-                                    }, text: 'END RIDE',
-                                      textcolor: Color.fromRGBO(255, 255, 255, 1),
-                                      bgColor: Color.fromRGBO(251, 72, 75, 1),
-                                      color: Color.fromRGBO(251, 72, 75, 1),
-                                    ),
-
-                                  ],
-                                ),
-                              );
-                            });
+                          context: context,
+                          builder: (context) => CustomAlertBox(
+                            disripText:
+                                'Are you sure you want to end this ride?',
+                            firstButton: 'NO',
+                            titleText: 'Confirm end of ride',
+                            secondButton: 'END RIDE',
+                            firstbuttonaction: () {
+                              Navigator.pop(context);
+                            },
+                            secondbuttonaction: () {
+                              Navigator.pop(context);
+                            },
+                          ),
+                          //    AlertDialog(
+                          //   backgroundColor: Color.fromRGBO(255, 255, 255, 1),
+                          //   shape: BeveledRectangleBorder(
+                          //     borderRadius: BorderRadius.circular(0)
+                          //         ,
+                          //   ),
+                          //   title:const Text(
+                          //     'Confirm end of ride',
+                          //     style: TextStyle(
+                          //       fontFamily: 'UberMove',
+                          //         fontSize: 20,
+                          //         fontWeight: FontWeight.w500,
+                          //     color: Color.fromRGBO(0, 0, 0, 0.87)
+                          //     ),
+                          //   ),
+                          //   content:const  Text(
+                          //       'Are you sure you want to end this \n ride?',
+                          //     style: TextStyle(
+                          //       fontSize: 14,
+                          //       fontFamily: 'UberMove',
+                          //       fontWeight: FontWeight.w400,
+                          //       color: Color.fromRGBO(156, 164, 171, 1)
+                          //   ),
+                          //   ),
+                          //   actions: [
+                          //     CustomButton(height: 36, width: 74, onPress: (){
+                          //       Navigator.pop(context);
+                          //     }, text: 'No',
+                          //       textcolor: Color.fromRGBO(156, 164, 171, 1),
+                          //       color: Color.fromRGBO(255, 255, 255, 1),
+                          //     ),
+                          //     CustomButton(height: 36, width: 74, onPress: (){
+                          //       Navigator.pop(context);
+                          //
+                          //     }, text: 'END RIDE',
+                          //       textcolor: Color.fromRGBO(255, 255, 255, 1),
+                          //       bgColor: Color.fromRGBO(251, 72, 75, 1),
+                          //       color: Color.fromRGBO(251, 72, 75, 1),
+                          //     ),
+                          //
+                          //   ],
+                          // );
+                        );
                         // showDialog(context: context, builder: (context){
                         //   return AlertDialog(
                         //     title: Text(

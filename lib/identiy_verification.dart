@@ -28,7 +28,7 @@ class _IdentiyVerificationState extends State<IdentiyVerification> {
               child: Text(
                 'Idenitity Verification',
                 style: TextStyle(
-                    fontFamily: 'UberMoveBold',
+                    fontFamily: 'UberMove',
                     fontWeight: FontWeight.w500,
                     fontSize: 24,
                     color: Color(0xFF2D2D2D)),
@@ -39,7 +39,7 @@ class _IdentiyVerificationState extends State<IdentiyVerification> {
               child: Text(
                 'For authentication purposes, we need Tax File \n Number (TFN) for a background check.',
                 style: TextStyle(
-                    fontFamily: 'UberMoveMedium',
+                    fontFamily: 'UberMove',
                     fontWeight: FontWeight.w400,
                     fontSize: 14,
                     color: Color(0xFF2D2D2D)),
@@ -60,7 +60,7 @@ class _IdentiyVerificationState extends State<IdentiyVerification> {
                 style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    fontFamily: 'UberMoveMedium'),
+                    fontFamily: 'UberMove'),
               ),
             ),
             Padding(
@@ -70,7 +70,7 @@ class _IdentiyVerificationState extends State<IdentiyVerification> {
                 style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    fontFamily: 'UberMoveMedium'),
+                    fontFamily: 'UberMove'),
               ),
             ),
             Padding(
@@ -80,7 +80,7 @@ class _IdentiyVerificationState extends State<IdentiyVerification> {
                 style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    fontFamily: 'UberMoveMedium'),
+                    fontFamily: 'UberMove'),
               ),
             ),
             Padding(

@@ -4,6 +4,9 @@ import 'package:untitled1/custom_button.dart';
 import 'package:untitled1/map_screen.dart';
 import 'package:untitled1/rider_info.dart';
 
+import 'cancel_reason.dart';
+import 'custom_alert_box.dart';
+
 class RideAccepted extends StatefulWidget {
   const RideAccepted({super.key});
 
@@ -25,7 +28,28 @@ class _RideAcceptedState extends State<RideAccepted> {
             child: CustomButton(
               height: 36,
               width: 108,
-              onPress: () {},
+              onPress: () {
+                {
+                  showDialog(
+                    context: context,
+                    builder: (context) =>
+                        CustomAlertBox(
+                          disripText:
+                          'Are you sure you want to cancel this ride?',
+                          firstButton: 'NO',
+                          titleText: 'Cancel Ride?',
+                          secondButton: 'YES',
+                          firstbuttonaction: () {
+                            Navigator.pop(context);
+                          },
+                          secondbuttonaction: () {
+                            Navigator.push(context, MaterialPageRoute(
+                                builder: (context) => ReasonCancel()));
+                          },
+                        ),
+                  );
+                }
+              },
               text: 'Cancel Ride',
               textcolor: Color.fromRGBO(255, 255, 255, 1),
               bgColor: Color.fromRGBO(251, 72, 75, 1),

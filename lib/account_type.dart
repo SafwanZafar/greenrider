@@ -34,7 +34,7 @@ class _AccountTypeState extends State<AccountType> {
               child: Text(
                 'Select Type ',
                 style: TextStyle(
-                    fontFamily: 'UberMoveMedium',
+                    fontFamily: 'UberMove',
                     fontWeight: FontWeight.w400,
                     fontSize: 20,
                     color: Color(0xFF1F1F22)),
@@ -45,7 +45,7 @@ class _AccountTypeState extends State<AccountType> {
               child: Text(
                 'Please select how you would like to partner \n with Green Rider.',
                 style: TextStyle(
-                    fontFamily: 'UberMoveMedium',
+                    fontFamily: 'UberMove',
                     fontWeight: FontWeight.w400,
                     fontSize: 14,
                     color: Color(0xFF9CA4Ab)),
@@ -94,7 +94,7 @@ class _AccountTypeState extends State<AccountType> {
                                       fontSize: 14,
                                       fontWeight: FontWeight.w500,
                                       color: Colors.black,
-                                      fontFamily: 'UberMoveBold'),
+                                      fontFamily: 'UberMove'),
                                 ),
                               ),
                               Padding(
@@ -105,7 +105,7 @@ class _AccountTypeState extends State<AccountType> {
                                       fontWeight: FontWeight.w400,
                                       fontSize: 14,
                                       color: Color(0xFF2D2D2D),
-                                      fontFamily: 'UberMoveMedium'),
+                                      fontFamily: 'UberMove'),
                                 ),
                               )
                             ],
@@ -150,7 +150,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontSize: 14,
                                         fontWeight: FontWeight.w500,
                                         color: Colors.black,
-                                        fontFamily: 'UberMoveBold'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 ),
                                 Padding(
@@ -161,7 +161,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14,
                                         color: Color(0xFF2D2D2D),
-                                        fontFamily: 'UberMoveMedium'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 )
                               ],
@@ -207,7 +207,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontSize: 14,
                                         fontWeight: FontWeight.w500,
                                         color: Colors.black,
-                                        fontFamily: 'UberMoveBold'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 ),
                                 Padding(
@@ -218,7 +218,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14,
                                         color: Color(0xFF2D2D2D),
-                                        fontFamily: 'UberMoveMedium'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 ),
 
@@ -265,7 +265,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontSize: 14,
                                         fontWeight: FontWeight.w500,
                                         color: Colors.black,
-                                        fontFamily: 'UberMoveBold'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 ),
                                 Padding(
@@ -276,7 +276,7 @@ class _AccountTypeState extends State<AccountType> {
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14,
                                         color: Color(0xFF2D2D2D),
-                                        fontFamily: 'UberMoveMedium'),
+                                        fontFamily: 'UberMove'),
                                   ),
                                 )
                               ],

@@ -42,7 +42,7 @@ class _CamerContainerState extends State<CamerContainer> {
           child: Text(
            widget.text,
             style: TextStyle(
-                fontFamily: 'UberMoveMedium',
+                fontFamily: 'UberMove',
                 fontWeight: FontWeight.w400,
                 fontSize: 14,
                 color: Color(0xFF9CA4Ab)),

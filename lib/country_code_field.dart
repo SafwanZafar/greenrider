@@ -50,7 +50,7 @@ class _CountryCodeFieldState extends State<CountryCodeField> {
           child: IntlPhoneField(
             disableLengthCheck: true,
             dropdownIconPosition: IconPosition.trailing,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               hintText: 'Enter Your Mobile Number',
               hintStyle: TextStyle(
                 fontSize: 16,

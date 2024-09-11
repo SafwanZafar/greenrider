@@ -4,6 +4,7 @@ import 'package:untitled1/bottom_navbar.dart';
 import 'package:untitled1/custom_button.dart';
 import 'package:untitled1/map_screen.dart';
 import 'package:untitled1/ride_accepted.dart';
+import 'package:untitled1/ride_request.dart';
 import 'package:untitled1/rider_info.dart';
 
 import 'map_home_screen.dart';
@@ -67,8 +68,7 @@ class _AddPaymentState extends State<AddPayment> {
                 height: 50,
                 width: 328,
                 onPress: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => RideAccepted()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>RideRequest()));
                 },
                 text: 'COUNTINUE',color: Color.fromRGBO(31, 233, 24, 1),
                 bgColor: Color.fromRGBO(31, 233, 24, 1),
