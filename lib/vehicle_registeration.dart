@@ -29,7 +29,7 @@ class _VehicleRegisterationState extends State<VehicleRegisteration> {
             child: Text(
               'Vehicle Registration',
               style: TextStyle(
-                  fontFamily: 'UberMoveBold',
+                  fontFamily: 'UberMove',
                   fontWeight: FontWeight.w400,
                   fontSize: 20,
                   color: Color(0xFF1F1F22)),
@@ -40,7 +40,7 @@ class _VehicleRegisterationState extends State<VehicleRegisteration> {
             child: Text(
               'Take a photo of your driving license. Make sure \n we can easily read all the details.',
               style: TextStyle(
-                  fontFamily: 'UberMoveMedium',
+                  fontFamily: 'UberMove',
                   fontWeight: FontWeight.w400,
                   fontSize: 14,
                   color: Color(0xFF9CA4Ab)),

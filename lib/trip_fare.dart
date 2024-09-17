@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:untitled1/menu.dart';
 
 class TripFare extends StatelessWidget {
   const TripFare({super.key});
@@ -13,7 +14,9 @@ class TripFare extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 55, left: 6),
             child: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Menu()));
+                },
                 icon: const Icon(
                   Icons.close,
                   color: Color.fromRGBO(45, 45, 45, 1),

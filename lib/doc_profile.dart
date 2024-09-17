@@ -29,7 +29,7 @@ class _DocProfileState extends State<DocProfile> {
               child: Text(
                 'Profile Photo',
                 style: TextStyle(
-                    fontFamily: 'UberMoveBold',
+                    fontFamily: 'UberMove',
                     fontWeight: FontWeight.w400,
                     fontSize: 20,
                     color: Color(0xFF1F1F22)),
@@ -49,7 +49,7 @@ class _DocProfileState extends State<DocProfile> {
                     ' 2. Take your sunglasses and hat off \n'
                     ' 3. Take your photo in a well-lit place',
                     style: TextStyle(
-                        fontFamily: 'UberMoveMedium',
+                        fontFamily: 'UberMove',
                         fontWeight: FontWeight.w400,
                         fontSize: 14,
                         color: Color(0xFF9CA4Ab)),
