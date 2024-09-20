@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled1/ride_details.dart';
-
-
 class MyRides extends StatelessWidget {
   const MyRides({super.key});
 
