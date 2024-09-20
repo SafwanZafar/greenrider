@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled1/Custom_Text_field.dart';
+import 'package:untitled1/document.dart';
 
 import 'account.dart';
 
@@ -19,13 +20,18 @@ class Profile extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                'Profile',
-                style: TextStyle(
-                    fontSize: 20,
-                    fontFamily: 'UberMove',
-                    fontWeight: FontWeight.w400,
-                    color: Color.fromRGBO(31, 31, 34, 1)),
+              InkWell(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Document()));
+                },
+                child: Text(
+                  'Profile',
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontFamily: 'UberMove',
+                      fontWeight: FontWeight.w400,
+                      color: Color.fromRGBO(31, 31, 34, 1)),
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 130, right: 132, top: 6),

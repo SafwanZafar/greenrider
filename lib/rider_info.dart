@@ -57,7 +57,9 @@ class _RiderInfoState extends State<RiderInfo> {
                     Container(
                       height: 52,
                       width: 52,
-                      child: CircleAvatar(),
+                      child: CircleAvatar(
+                          backgroundImage: AssetImage('assets/images/Bitmap.png')
+                      ),
                     ),
                     const SizedBox(
                       width: 10,
